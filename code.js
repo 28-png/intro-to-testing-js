@@ -7,3 +7,8 @@ const helloWorld = function() {
 function sayHello(Pat) {
 return "Hello, " + Pat + "!";
 }
+
+function isFive(num) {
+    var y = parseInt(num) ;
+return (y === 5);
+}
