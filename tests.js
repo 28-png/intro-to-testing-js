@@ -33,4 +33,7 @@ describe('sayHello', function() {
    it('should return a string', function() {
       expect(typeof sayHello()).toBe("string");
    });
+   it('should return Hello, name!', function () {
+      expect(sayHello("name")).toBe("Hello, name!")
+   });
 });
