@@ -9,6 +9,7 @@ return "Hello, " + Pat + "!";
 }
 
 function isFive(num) {
-    var y = parseInt(num) ;
-return (y === 5);
+return (num === 5);
+
+
 }
